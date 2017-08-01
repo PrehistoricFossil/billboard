@@ -4,4 +4,6 @@
 /out/
 .idea
 .DS_Store
-Billboard.iml
+/Billboard.iml
+/build.xml
+/manifest.ml
