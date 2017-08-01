@@ -18,13 +18,13 @@ import javafx.stage.Stage;
  *
  * @author vita
  */
-public class LogIn implements Initializable {
+public class Login implements Initializable {
     
     @FXML
     private Label label;
     
     @FXML
-    private void handleButtonAction(ActionEvent event) throws IOException {
+    private void handleLoginButton(ActionEvent event) throws IOException {
         Parent main_page_parent = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
         Scene main_page_scene = new Scene(main_page_parent);
         Stage app_main = (Stage) ((Node) event.getSource()).getScene().getWindow();

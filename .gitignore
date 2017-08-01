@@ -1,4 +1,7 @@
 /build/
 /dist/
-/nbproject
+/nbproject/
+/out/
 .idea
+.DS_Store
+Billboard.iml
